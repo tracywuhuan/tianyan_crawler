@@ -282,8 +282,8 @@ if __name__ == '__main__':
     driver.get("http://www.tianyancha.com/login")
     driver.find_element_by_class_name("pb30").find_element_by_class_name("_input").clear()  
     driver.find_element_by_class_name("pb40").find_element_by_class_name("_input").clear()   
-    driver.find_element_by_class_name("pb30").find_element_by_class_name("_input").send_keys("13436952068")
-    driver.find_element_by_class_name("pb40").find_element_by_class_name("_input").send_keys("baobao1992")
+    driver.find_element_by_class_name("pb30").find_element_by_class_name("_input").send_keys("xxx")
+    driver.find_element_by_class_name("pb40").find_element_by_class_name("_input").send_keys("xxx")
 
     driver.find_element_by_class_name("login_btn").click()
     time.sleep(5)
@@ -323,8 +323,8 @@ if __name__ == '__main__':
                     time.sleep(5)
                     driver.find_element_by_class_name("pb30").find_element_by_class_name("_input").clear()  
                     driver.find_element_by_class_name("pb40").find_element_by_class_name("_input").clear()   
-                    driver.find_element_by_class_name("pb30").find_element_by_class_name("_input").send_keys("13436952068")
-                    driver.find_element_by_class_name("pb40").find_element_by_class_name("_input").send_keys("baobao1992")
+                    driver.find_element_by_class_name("pb30").find_element_by_class_name("_input").send_keys("xxx")
+                    driver.find_element_by_class_name("pb40").find_element_by_class_name("_input").send_keys("xxx")
 
                     driver.find_element_by_class_name("login_btn").click()
                     time.sleep(5)
